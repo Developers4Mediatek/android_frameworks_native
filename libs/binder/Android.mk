@@ -36,8 +36,7 @@ sources := \
     PermissionCache.cpp \
     ProcessState.cpp \
     Static.cpp \
-    TextOutput.cpp \
-    MediatekHacks.cpp
+    TextOutput.cpp
 
 ifeq ($(BOARD_NEEDS_MEMORYHEAPION),true)
 sources += \
